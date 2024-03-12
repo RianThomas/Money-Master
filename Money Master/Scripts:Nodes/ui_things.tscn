@@ -1,0 +1,57 @@
+[gd_scene load_steps=11 format=3 uid="uid://ca8gt44lsigp4"]
+
+[ext_resource type="Texture2D" uid="uid://h037ycgsgxy5" path="res://ui_art/ui01.png" id="1_bur84"]
+[ext_resource type="Texture2D" uid="uid://p5lt7m0n2eqm" path="res://ui_art/ui00.png" id="2_vpbd6"]
+[ext_resource type="Texture2D" uid="uid://cn8uhs85i56yc" path="res://ui_art/ui02.png" id="3_8rusw"]
+[ext_resource type="Texture2D" uid="uid://ycjbku1dvr1g" path="res://ui_art/ui03.png" id="4_s7gpb"]
+[ext_resource type="Texture2D" uid="uid://bilm0yqgg4w2n" path="res://ui_art/ui04.png" id="5_oodpx"]
+[ext_resource type="Texture2D" uid="uid://p8l56ifv3y5g" path="res://ui_art/ui05.png" id="6_ry05p"]
+[ext_resource type="Texture2D" uid="uid://bgnfgtj4spk78" path="res://ui_art/ui06.png" id="7_v70ih"]
+[ext_resource type="Texture2D" uid="uid://c1ybxtpv68hkc" path="res://ui_art/ui07.png" id="8_inin4"]
+[ext_resource type="Texture2D" uid="uid://cdfo3a1opmrx2" path="res://ui_art/ui08.png" id="9_m30ol"]
+[ext_resource type="Texture2D" uid="uid://ptgp7vlsyij7" path="res://ui_art/ui09.png" id="10_68so8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MoneyBar" type="Sprite2D" parent="."]
+position = Vector2(837, 224)
+scale = Vector2(5, 5)
+texture = ExtResource("1_bur84")
+
+[node name="MoneyBag" type="Sprite2D" parent="."]
+position = Vector2(748.75, 218.875)
+scale = Vector2(1.66406, 1.25391)
+texture = ExtResource("2_vpbd6")
+
+[node name="Circle" type="Sprite2D" parent="."]
+position = Vector2(84, 145)
+texture = ExtResource("3_8rusw")
+
+[node name="Bar" type="Sprite2D" parent="."]
+position = Vector2(228, 63)
+texture = ExtResource("4_s7gpb")
+
+[node name="Happy" type="Sprite2D" parent="."]
+position = Vector2(466, 218)
+texture = ExtResource("5_oodpx")
+
+[node name="Medium" type="Sprite2D" parent="."]
+position = Vector2(466, 165)
+texture = ExtResource("6_ry05p")
+
+[node name="Sad" type="Sprite2D" parent="."]
+position = Vector2(465, 111)
+texture = ExtResource("7_v70ih")
+
+[node name="Mad" type="Sprite2D" parent="."]
+position = Vector2(464, 59)
+texture = ExtResource("8_inin4")
+
+[node name="Coin" type="Sprite2D" parent="."]
+position = Vector2(233, 151)
+scale = Vector2(5, 5)
+texture = ExtResource("9_m30ol")
+
+[node name="Arrow" type="Sprite2D" parent="."]
+position = Vector2(356, 38)
+texture = ExtResource("10_68so8")
