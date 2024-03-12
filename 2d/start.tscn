@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://ta7pqtvc5bwv"]
+
+[ext_resource type="FontFile" uid="uid://cmrg2ev7aia6r" path="res://pixelart.ttf" id="1_mqfpe"]
+
+[sub_resource type="Theme" id="Theme_bt2gj"]
+
+[node name="Start" type="Button"]
+offset_left = 1052.0
+offset_top = 565.0
+offset_right = 1486.0
+offset_bottom = 711.0
+theme = SubResource("Theme_bt2gj")
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_mqfpe")
+theme_override_font_sizes/font_size = 51
+button_mask = 0
+text = " START"
+icon_alignment = 1

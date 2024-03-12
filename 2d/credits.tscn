@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkscjoldvmycs"]
+
+[ext_resource type="FontFile" uid="uid://cmrg2ev7aia6r" path="res://pixelart.ttf" id="1_eml4v"]
+
+[node name="Credits" type="Button"]
+offset_left = 1054.0
+offset_top = 911.0
+offset_right = 1488.0
+offset_bottom = 1057.0
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_eml4v")
+theme_override_font_sizes/font_size = 51
+button_mask = 0
+text = "Credits"
+icon_alignment = 1

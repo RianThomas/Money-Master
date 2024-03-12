@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckbccc1eg5gsm"]
+
+[ext_resource type="PackedScene" uid="uid://0uoakn1tem5q" path="res://tile_map.tscn" id="1_eqndv"]
+[ext_resource type="PackedScene" uid="uid://ta7pqtvc5bwv" path="res://start.tscn" id="2_jykua"]
+[ext_resource type="PackedScene" uid="uid://hlq5dt81yykq" path="res://how_to_play.tscn" id="3_tjjck"]
+[ext_resource type="PackedScene" uid="uid://dkscjoldvmycs" path="res://credits.tscn" id="4_f0rmi"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" parent="." instance=ExtResource("1_eqndv")]
+
+[node name="Start" parent="." instance=ExtResource("2_jykua")]
+
+[node name="How to Play" parent="." instance=ExtResource("3_tjjck")]
+
+[node name="Credits" parent="." instance=ExtResource("4_f0rmi")]

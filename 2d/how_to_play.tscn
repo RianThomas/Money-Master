@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://hlq5dt81yykq"]
+
+[ext_resource type="FontFile" uid="uid://cmrg2ev7aia6r" path="res://pixelart.ttf" id="1_nysyo"]
+
+[node name="How to Play" type="Button"]
+offset_left = 1053.0
+offset_top = 740.0
+offset_right = 1487.0
+offset_bottom = 886.0
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_nysyo")
+theme_override_font_sizes/font_size = 51
+button_mask = 0
+text = "How to Play"
+icon_alignment = 1
